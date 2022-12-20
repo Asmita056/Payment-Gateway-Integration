@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+body {
+    background-image: url("Images/bg-img.jpg");
+    background-size: cover;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    height: 75px;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+nav ul li {
+    margin: 0 50px;
+    display: inline;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 10px 250px 10px 70px;
+    font-family: 'Snowburst One', cursive;
+    color: darksalmon;
+}
+
+.content {
+    min-height: calc(100vh - 75px - 5vh);
+    display: flex;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.second.border ul li {
+    font-family: 'Raleway', sans-serif;
+}
+
+.left {
+    background-color: rgb(174, 167, 222, 0.85);
+    display: flex;
+    margin: 7vh 0px 7vh 2.5vw;
+    padding: 15px;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.first {
+    width: 100%;
+}
+
+.second {
+    background-color: rgb(234, 64, 98);
+    padding: 5px;
+}
+
+.second ul {
+    list-style: square inside;
+}
+
+.third {
+    background-color: darkmagenta;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.right {
+    background-color: rgb(174, 167, 222, 0.85);
+    margin: 7vh 2.5vw;
+    padding: 20px;
+    width: 50%;
+}
+
+.fourth ul li {
+    margin: 10px 0;
+    font-family: 'Raleway', sans-serif;
+    list-style: square inside;
+}
+
+
+footer {
+    height: 2.5vh;
+    background-color: black;
+    color: white;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    padding: 10px;
+}
